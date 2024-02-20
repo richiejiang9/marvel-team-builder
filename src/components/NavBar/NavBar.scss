@@ -1,0 +1,51 @@
+.nav-bar-container{
+
+    header {
+        margin: 0;
+      
+        background-color: #a4282c;
+        margin-bottom: 1rem;
+    }
+
+    nav {
+        flex-flow: row nowrap;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        padding: .5rem 1rem;
+    }  
+
+    .logo{
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family: MarvelLogo;
+        font-size: 50px;
+    }
+
+    .button-link:link, .button-link:visited {
+        background-color: #ffffff;
+        color: #000000;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 1rem;
+        text-decoration: none;
+      }
+      
+    .button-link:hover, .button-link:active {
+        background-color: rgb(239, 232, 232);
+    }
+
+    button {
+        background-color: #ffffff;
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+      }
+}
