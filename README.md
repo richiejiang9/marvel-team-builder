@@ -2,7 +2,7 @@
 
 Create a team of heroes using Marvel characters!
 
-**Technologies used**
+**Technologies used**  
 React  
 Hooks  
 Sass  
