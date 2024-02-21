@@ -17,9 +17,12 @@ Data provided by Marvel. © 2014 Marvel
 
 ## Installation and Usage
 
-Clone the repo using **git clone**
+Clone the repo using
+```sh
+git clone https://github.com/richiejiang9/marvel-team-builder.git
+```
 
-Register and obtain an API key from [Marvel API](https://developer.marvel.com/)  
+Register and obtain an API key from [Marvel API](https://developer.marvel.com/).  
 Create an .env file at the root of the project directory, with the following API credentials:
 ```sh
  REACT_APP_BASE_URL=https://gateway.marvel.com
