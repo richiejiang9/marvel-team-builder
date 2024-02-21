@@ -2,6 +2,7 @@
 
 [Demo here](https://marvel-team-builder.vercel.app/)  
 Create a team of heroes using Marvel characters!
+![Example](src/assets/Capture.PNG)
 
 **Technologies**  
 React  
