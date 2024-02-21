@@ -3,12 +3,12 @@
 Create a team of heroes using Marvel characters!
 
 **Technologies used**
-React
-Hooks
-Sass
-RESTFul API
-Routing and navigation
-Persisting data in local storage
+React  
+Hooks  
+Sass  
+RESTFul API  
+Routing and navigation  
+Local Storage  
 
 Demo: 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
