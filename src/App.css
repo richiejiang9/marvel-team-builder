@@ -24,10 +24,23 @@ input{
   cursor: pointer;
 }
 
-.App {
-  text-align: center;
+.app {
+  position: relative;
+  min-height: 100vh;
 }
 
 .container{
   width: 1340px; margin:0 auto;
+}
+
+.wrapper{
+  padding-bottom: 1.5rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+  height: 1.5rem;
+  text-align: right;
 }

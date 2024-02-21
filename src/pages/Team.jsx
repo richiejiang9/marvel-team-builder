@@ -1,6 +1,5 @@
 import TeamDetails from "../components/Team/TeamDetails";
 
-
 const Team = () => {
     return (
         <div className="container">

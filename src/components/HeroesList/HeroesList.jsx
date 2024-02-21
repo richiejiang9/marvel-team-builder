@@ -1,4 +1,5 @@
 import HeroCard from "../HeroCard/HeroCard";
+
 import './HeroesList.scss';
 
 const HeroesList = ({heroes}) => {

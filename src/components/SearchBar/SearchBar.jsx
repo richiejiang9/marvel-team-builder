@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import { getHeroes } from "../../services/HeroesService";
 
-
 const SearchBar = ({setHeroes}) => {
     let inputRef = useRef("");
 

@@ -3,4 +3,20 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+
+    button{
+        font-family: AmesPro;
+        border: none;
+        text-align: center;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      
+      .add-button{
+        background-color: lightblue;
+      }
+      .remove-button{
+        background-color: lightcoral;
+      }
 }

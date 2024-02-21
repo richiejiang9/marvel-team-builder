@@ -1,7 +1,6 @@
 import "./NavBar.scss"
 
 const NavBar = () => {
-
     return (
         <div className="nav-bar-container">
             <header>

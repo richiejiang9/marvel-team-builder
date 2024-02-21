@@ -1,6 +1,7 @@
-import './HeroCard.scss';
+import _ from  "lodash";
 import { Link } from 'react-router-dom';
-import _ from  "lodash"
+
+import './HeroCard.scss';
 
 const HeroCard = (props) => {
     let hero = {id: props.id, props: props.name, thumbnail: props.thumbnail};
@@ -24,8 +25,9 @@ const HeroCard = (props) => {
                 heroTeam.splice(i,1);
             }
         }
-
         localStorage.setItem('heroTeam', JSON.stringify(heroTeam));
+
+        //Removes the card from Team, but not from the home gallery
         if(props.onTeam===true){
             var card = document.getElementById(id);
             card.parentNode.removeChild(card);

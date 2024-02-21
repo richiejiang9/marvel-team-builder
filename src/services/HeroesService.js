@@ -4,13 +4,11 @@ const API_URL = process.env.REACT_APP_BASE_URL;
 const apiKey = process.env.REACT_APP_API_KEY;
 const privateKey = process.env.REACT_APP_PRIVATE_KEY;
 let ts = Date.now().toString();
+//Marvel API requires hashing
 const hash = MD5(ts + privateKey + apiKey).toString();
 
 const getHeroes = async (id) => {
     let baseUrl = `${API_URL}/v1/public/characters`;
-
-    //Marvel API requires hashing
-    
     let url = `${baseUrl}?ts=${ts}&apikey=${apiKey}&hash=${hash}&nameStartsWith=${id}`;
 
     try {
